@@ -10,7 +10,7 @@ def is_element_present(browser):
     except:
         return False
 
-def test_guest_should_see_login_link_pass(browser):
+def test_button_add_to_basket(browser):
     browser.get(link)
     assert is_element_present(browser)==True, "Кнопка добавить в корзину не найдена"
     time.sleep(10)
